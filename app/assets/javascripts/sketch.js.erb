@@ -47,6 +47,7 @@ function setup() {
 	cityscapeImg.resize(windowWidth,0);
 	image(cityscapeImg, 0, 206);
 
+	cursor("<%= asset_path('net.png') %>");
 }
 
 function mousePressed() {
@@ -65,8 +66,8 @@ function windowResized() {
 function draw() {
 	timeSinceStart += deltaTime/1000;
 
-	hue = (timeSinceStart / 8) + 306;
-	saturation = (timeSinceStart/2) + 10;
+	hue = (timeSinceStart / 4) + 306;
+	saturation = (timeSinceStart) + 10;
 
 	if(hue > 323) {
 		hue = 323;
@@ -107,7 +108,7 @@ function draw() {
 	  } 
 
     timeList[i] += deltaTime/1000;
-    if(timeList[i] > 10.0) {    	
+    if(timeList[i] > 20.0) {    	
 			clearBird(i);
 		}
 	}
