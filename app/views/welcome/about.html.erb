@@ -1,9 +1,11 @@
+<div style="margin-top: 100px;"></div>
 <div class="jumbotron">
-  <h1>Welcome to Chatty!</h1>
-  <p>The Rails 5 + Action Cable example app</p>
+  <h1>Alone Together</h1>
   <%if current_user%>
     <p><span class="glyphicon glyphicon-heart"></span> Nice to see you, <%= current_user.username%> <span class="glyphicon glyphicon-heart"></span></p>
   <%end%>
-  <p>Sign up or log in, then create a chatroom or browse existing rooms to start chatting.</p>
+  <%= link_to "Sign Up", signup_path %>
+  <br/>
+  <%= link_to "Log In", login_path %>
 </div>
 
