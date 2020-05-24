@@ -16,5 +16,7 @@
 //= require bootstrap-sprockets
 //= require_tree ./channels
 //= require chatrooms
+//= require p5.play
+//= require p5.sound
 //= stub 'sketch'
 // require_tree .
