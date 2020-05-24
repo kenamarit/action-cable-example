@@ -32,3 +32,11 @@
 #hidden {
   display: none;
 }
+
+.message-input-container {
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+  left: 5%;
+  height: 130px;
+}
