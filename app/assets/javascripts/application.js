@@ -16,4 +16,5 @@
 //= require bootstrap-sprockets
 //= require_tree ./channels
 //= require chatrooms
+//= stub 'sketch'
 // require_tree .
