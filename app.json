@@ -1,8 +1,6 @@
 {
-  "name": "Chatty",
-  "description": "An Action Cable + Rails 5 example app",
-  "repository": "https://github.com/SophieDeBenedetto/action-cable-example",
-  "keywords": ["rails 5", "action cable", "websockets"],
+  "name": "Birds: Alone Together",
+  "description": "Made for the Social Distance Game Jam www.ssdj.am",
   "success_url": "/",
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"
