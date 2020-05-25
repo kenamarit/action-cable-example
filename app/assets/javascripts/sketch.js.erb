@@ -47,7 +47,11 @@ function setup() {
 	background(hue, saturation, balance);
 
 	cityscapeImg.resize(windowWidth,0);
-	image(cityscapeImg, 0, 206);
+
+	imageMode(CORNERS);
+  image(cityscapeImg, 0, windowHeight/2, windowWidth, windowHeight);
+
+	// image(cityscapeImg, 0, 206);
 
 	cursor("<%= asset_path('net.png') %>");
 }
@@ -82,7 +86,9 @@ function draw() {
   colorMode(HSB);
 	background(hue, saturation, balance);
 
-	image(cityscapeImg, 0, 206);
+	imageMode(CORNERS);
+  image(cityscapeImg, 0, windowHeight/2, windowWidth, windowHeight);
+	// image(cityscapeImg, 0, 206);
 
 	// birds
 
